@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 float main ()
-
+// Learing array basics
 {
 
 float marks[5] ;
