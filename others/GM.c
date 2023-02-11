@@ -11,7 +11,7 @@ float main ()
 
 {
     float x, y ;
-
+    printf("welcome to Geometric mean calculator : /n");
     printf("Enter the numbers \n") ;
     scanf("%f \n", &x ) ;
     scanf("%f \n", &y ) ;
