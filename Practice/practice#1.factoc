@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int fact ( int n )
+{
+    if (n == 1 || n == 0 )
+    return 1 ;
+
+    else 
+    return n * fact(n-1) ;
+}
+
+int main ()
+
+{
+    int i, j, f, n ;
+    i = 1 ;
+    j = 1 ;
+
+    printf("Enter the number you want factorial of \n") ;
+    scanf("%d\n" , &n );
+
+    /*for ( i = 1 ; i <= n ; i++ )
+    {
+        f = i * j ;
+        j = f ;
+    }
+
+    printf("The factorial is %d\n" , j ) ; 
+
+    do 
+    {
+        f = i * j ;
+        j = f ;
+        i++ ;
+    } while ( i<=n ) ;
+
+    printf("The factorial is %d\n" , j ) ; */
+
+    printf("%d\n" , fact(n)) ;
+
+    return 0 ;
+}
